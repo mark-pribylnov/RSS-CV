@@ -1,0 +1,266 @@
+self.__BUILD_MANIFEST = {
+  "/": [
+    "static/chunks/d4a0cb8a715ed498.js"
+  ],
+  "/404": [
+    "static/chunks/939f5621d13a6b52.js"
+  ],
+  "/_error": [
+    "static/chunks/09095fd982b10b7f.js"
+  ],
+  "/admin/auto-test": [
+    "static/chunks/7d113354b23ad673.js"
+  ],
+  "/admin/auto-test-task/[taskId]": [
+    "static/chunks/eadde29644b7f1df.js"
+  ],
+  "/admin/contributors": [
+    "static/chunks/a489c830a166dd46.js"
+  ],
+  "/admin/courses": [
+    "static/chunks/e4d30d169c1c2d5c.js"
+  ],
+  "/admin/disciplines": [
+    "static/chunks/e40979cf6d95376b.js"
+  ],
+  "/admin/discord-telegram": [
+    "static/chunks/927b941843913527.js"
+  ],
+  "/admin/events": [
+    "static/chunks/7699cec1defef0df.js"
+  ],
+  "/admin/mentor-registry": [
+    "static/chunks/318274a0b03e1d2e.js"
+  ],
+  "/admin/notifications": [
+    "static/chunks/146d5994ce86c4d8.js"
+  ],
+  "/admin/prompts": [
+    "static/chunks/9969f820df0d8101.js"
+  ],
+  "/admin/registrations": [
+    "static/chunks/456db1ebb594c255.js"
+  ],
+  "/admin/students": [
+    "static/chunks/f6a87cd0a7f251f0.js"
+  ],
+  "/admin/tasks": [
+    "static/chunks/0b00cd67820da990.js"
+  ],
+  "/admin/user-group": [
+    "static/chunks/4e1c9e4b1413bade.js"
+  ],
+  "/admin/users": [
+    "static/chunks/227826189577720e.js"
+  ],
+  "/applicants": [
+    "static/chunks/0190cb2203a4a10f.js"
+  ],
+  "/course/403": [
+    "static/chunks/8a1003fc0ba607aa.js"
+  ],
+  "/course/admin/certified-students": [
+    "static/chunks/f972cb040fcedcba.js"
+  ],
+  "/course/admin/cross-check-table": [
+    "static/chunks/e2e21d13fca4d9db.js"
+  ],
+  "/course/admin/events": [
+    "static/chunks/a69f3430bd826a30.js"
+  ],
+  "/course/admin/interviews": [
+    "static/chunks/ac007611478b010f.js"
+  ],
+  "/course/admin/mentor-tasks-review": [
+    "static/chunks/e7bbee4f398e1ff2.js"
+  ],
+  "/course/admin/mentors": [
+    "static/chunks/11e45ca015703039.js"
+  ],
+  "/course/admin/reports": [
+    "static/chunks/8935de0ea64c0369.js"
+  ],
+  "/course/admin/stage-interviews": [
+    "static/chunks/1b3c74ca57981754.js"
+  ],
+  "/course/admin/students": [
+    "static/chunks/b0e860981220aec6.js"
+  ],
+  "/course/admin/tasks": [
+    "static/chunks/fa86e50a29d6a2a8.js"
+  ],
+  "/course/admin/users": [
+    "static/chunks/a1fe97bc6c6b864b.js"
+  ],
+  "/course/interview/[type]/feedback": [
+    "static/chunks/8a26815fb3f38d21.js"
+  ],
+  "/course/mentor/confirm": [
+    "static/chunks/4286bba23b30f8fa.js"
+  ],
+  "/course/mentor/dashboard": [
+    "static/chunks/9119a876a651a336.js"
+  ],
+  "/course/mentor/expel-student": [
+    "static/chunks/1b316a0241b00c9b.js"
+  ],
+  "/course/mentor/feedback": [
+    "static/chunks/d56d6be7dbac2f43.js"
+  ],
+  "/course/mentor/interview-technical-screening": [
+    "static/chunks/9f1d79d2b79375e0.js"
+  ],
+  "/course/mentor/interview-wait-list": [
+    "static/chunks/c50b5308fb439b4c.js"
+  ],
+  "/course/mentor/interviews": [
+    "static/chunks/c0ea06874a281a78.js"
+  ],
+  "/course/mentor/students": [
+    "static/chunks/384c7425b8702299.js"
+  ],
+  "/course/schedule": [
+    "static/chunks/0f240e2d4748420a.js"
+  ],
+  "/course/score": [
+    "static/chunks/1bc8e93d5ca7f3cd.js"
+  ],
+  "/course/stats": [
+    "static/chunks/529cdd1fa5420bb2.js"
+  ],
+  "/course/student/auto-test": [
+    "static/chunks/c310529ddc4c5884.js"
+  ],
+  "/course/student/auto-test/task": [
+    "static/chunks/5c53a0afe01b292d.js"
+  ],
+  "/course/student/cross-check-review": [
+    "static/chunks/72c6a7b5a1f9af8d.js"
+  ],
+  "/course/student/cross-check-submit": [
+    "static/chunks/896f8ec9aa9e7eb5.js"
+  ],
+  "/course/student/dashboard": [
+    "static/chunks/17a659ea362bd1a8.js"
+  ],
+  "/course/student/interviews": [
+    "static/chunks/cbb45d17043678f5.js"
+  ],
+  "/course/submit-scores": [
+    "static/chunks/c0250fb084ed015e.js"
+  ],
+  "/course/team-distributions": [
+    "static/chunks/fb7b0afc9e79b50d.js"
+  ],
+  "/course/teams": [
+    "static/chunks/5ac4ba88b77463ad.js"
+  ],
+  "/cv/[uuid]": [
+    "static/chunks/f0d6fd2e2a24ec8c.js"
+  ],
+  "/cv/edit": [
+    "static/chunks/e011e5160ad3bff1.js"
+  ],
+  "/gratitude": [
+    "static/chunks/3d2c216f8e1ecdea.js"
+  ],
+  "/heroes": [
+    "static/chunks/8e987a0cfc4d4712.js"
+  ],
+  "/login": [
+    "static/chunks/74f6df695be5f39c.js"
+  ],
+  "/mentors-hall-of-fame": [
+    "static/chunks/824e6dca3de027fd.js"
+  ],
+  "/profile": [
+    "static/chunks/5aa6ecbdfe1cbc14.js"
+  ],
+  "/profile/connection-confirmed": [
+    "static/chunks/7ad8de086eec5384.js"
+  ],
+  "/profile/notifications": [
+    "static/chunks/7f06fceb2471565a.js"
+  ],
+  "/registry/epamlearningjs": [
+    "static/chunks/3e88bd91ef345269.js"
+  ],
+  "/registry/mentor": [
+    "static/chunks/9f02435b4f2fdf44.js"
+  ],
+  "/registry/student": [
+    "static/chunks/a084428529760637.js"
+  ],
+  "__rewrites": {
+    "afterFiles": [],
+    "beforeFiles": [],
+    "fallback": []
+  },
+  "sortedPages": [
+    "/",
+    "/404",
+    "/_app",
+    "/_error",
+    "/admin/auto-test",
+    "/admin/auto-test-task/[taskId]",
+    "/admin/contributors",
+    "/admin/courses",
+    "/admin/disciplines",
+    "/admin/discord-telegram",
+    "/admin/events",
+    "/admin/mentor-registry",
+    "/admin/notifications",
+    "/admin/prompts",
+    "/admin/registrations",
+    "/admin/students",
+    "/admin/tasks",
+    "/admin/user-group",
+    "/admin/users",
+    "/applicants",
+    "/course/403",
+    "/course/admin/certified-students",
+    "/course/admin/cross-check-table",
+    "/course/admin/events",
+    "/course/admin/interviews",
+    "/course/admin/mentor-tasks-review",
+    "/course/admin/mentors",
+    "/course/admin/reports",
+    "/course/admin/stage-interviews",
+    "/course/admin/students",
+    "/course/admin/tasks",
+    "/course/admin/users",
+    "/course/interview/[type]/feedback",
+    "/course/mentor/confirm",
+    "/course/mentor/dashboard",
+    "/course/mentor/expel-student",
+    "/course/mentor/feedback",
+    "/course/mentor/interview-technical-screening",
+    "/course/mentor/interview-wait-list",
+    "/course/mentor/interviews",
+    "/course/mentor/students",
+    "/course/schedule",
+    "/course/score",
+    "/course/stats",
+    "/course/student/auto-test",
+    "/course/student/auto-test/task",
+    "/course/student/cross-check-review",
+    "/course/student/cross-check-submit",
+    "/course/student/dashboard",
+    "/course/student/interviews",
+    "/course/submit-scores",
+    "/course/team-distributions",
+    "/course/teams",
+    "/cv/edit",
+    "/cv/[uuid]",
+    "/gratitude",
+    "/heroes",
+    "/login",
+    "/mentors-hall-of-fame",
+    "/profile",
+    "/profile/connection-confirmed",
+    "/profile/notifications",
+    "/registry/epamlearningjs",
+    "/registry/mentor",
+    "/registry/student"
+  ]
+};self.__BUILD_MANIFEST_CB && self.__BUILD_MANIFEST_CB()
