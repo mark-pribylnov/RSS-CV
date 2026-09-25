@@ -48,8 +48,38 @@ a:hover {
   padding: 24px 16px 48px;
 }
 
+.page-actions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.print-btn {
+  flex-shrink: 0;
+  display: inline-block;
+  border: 1px solid var(--divider);
+  background: var(--surface);
+  color: var(--text);
+  border-radius: 6px;
+  padding: 8px 14px;
+  font: inherit;
+  font-size: 13px;
+  line-height: 1.4;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.print-btn:hover {
+  border-color: var(--link);
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
 .mirror-notice {
-  margin: 0 0 16px;
+  margin: 0;
+  flex: 1;
   padding: 10px 14px;
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.04);
@@ -466,4 +496,79 @@ a:hover {
   font-size: 13px;
   white-space: nowrap;
   text-align: right;
+}
+
+@media (max-width: 700px) {
+  .page-actions {
+    flex-direction: column;
+  }
+
+  .print-btn {
+    align-self: flex-start;
+  }
+}
+
+@media print {
+  @page {
+    size: 1120px 1460px;
+    margin: 0;
+  }
+
+  :root {
+    --bg: #ffffff;
+    --surface: #ffffff;
+    --divider: rgba(0, 0, 0, 0.12);
+    --text: #111111;
+    --text-secondary: rgba(0, 0, 0, 0.65);
+    --text-label: #1a3a3a;
+    --text-description: #1a3d7a;
+    --link: #1677ff;
+    --link-hover: #1677ff;
+    --success: #389e0d;
+  }
+
+  html,
+  body {
+    background: #fff;
+    color: #111;
+    height: auto !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    overflow: visible;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .page-wrap {
+    min-height: 0 !important;
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .print-btn,
+  .page-actions {
+    display: none;
+  }
+
+  .cv {
+    grid-template-columns: 300px 1fr;
+  }
+
+  .feedback-text,
+  .subsection em,
+  .skills-list,
+  .gratitude-text {
+    color: rgba(0, 0, 0, 0.88);
+  }
+
+  .hire-badge {
+    color: #237804;
+    background: rgba(82, 196, 26, 0.15);
+    border-color: #389e0d;
+  }
+
+  .gratitude-item[data-datetime]::before,
+  .gratitude-item[data-datetime]::after {
+    display: none;
+  }
 }
